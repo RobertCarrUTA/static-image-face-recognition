@@ -167,6 +167,8 @@ def main():
     image_files       = [file for extension in ('*.png', '*.jpg', '*.jpeg') for file in current_directory.rglob(extension)]
     target_display_width = 800
 
+    print('Enter q, quit, or stop to end the program (close all open face recognition windows after you entered one of these commands)')
+
     # Use an input thread that can stop the program while the user is viewing images
     input_thread = threading.Thread(target=monitor_input)
     input_thread.start()
