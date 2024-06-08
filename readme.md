@@ -7,9 +7,13 @@ This project is designed for face recognition and annotation in images. It loads
 This script is purely for educational purposes only. Any images included in this project are used solely for recreational and educational facial recognition demonstrations involving prominent political figures. The images are not used for any commercial purposes.
 
 ## Requirements
-- dlib version 19.24.4
-- face-recognition version 1.3.0
-- face-recognition-models version 0.3.0
+| Package                    | Version  | Installation Command                        | PyPI Link                                                                 |
+|----------------------------|----------|---------------------------------------------|--------------------------------------------------------------------------|
+| dlib                       | 19.24.4  | `pip install dlib`                          | [dlib](https://pypi.org/project/dlib/)                                   |
+| face-recognition-models    | 0.3.0    | `pip install face_recognition_models`       | [face-recognition-models](https://pypi.org/project/face_recognition_models/) |
+| face-recognition           | 1.3.0    | `pip install face-recognition`              | [face-recognition](https://pypi.org/project/face-recognition/)           |
+
+***Version refers to the version I used when developing this***
 
 ## Installation
 To install the required packages, run the following commands:
@@ -18,3 +22,7 @@ To install the required packages, run the following commands:
 pip install dlib
 pip install face_recognition_models
 pip install face-recognition
+```
+
+## Ending the program
+To end the program, enter q, quit, or stop into the terminal.
